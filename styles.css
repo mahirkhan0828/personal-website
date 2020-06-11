@@ -1,0 +1,193 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(136, 240, 179);
+}
+.home-page{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.home-page h1{
+    font-family: cursive;
+    font-size: 6rem;
+    margin: 0;
+    color: whitesmoke;
+    margin-top: 15rem;
+    font-weight: normal;
+}
+.home-page ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.home-page li{
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.home-page a{
+    color: rgb(136, 240, 179);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+.home-page a:hover{
+    color: rgb(4, 105, 46);
+}
+.home-page h2{
+    margin: auto;
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgb(136, 240, 179);
+}
+.about-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.about-page h1{
+    font-family: cursive;
+    font-weight: normal;
+    color: rgb(49, 47, 47);
+    font-size: 6rem;
+    margin-top: 40%;
+}
+.about-page h2{
+    color: rgb(49, 47, 47);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+.about-page p{
+    color: rgb(49, 47, 47);
+    font-size: 1.2rem;
+}
+.about-page ul{
+    list-style-type: none;
+}
+.about-page li{
+    color: rgb(49, 47, 47);
+    font-size: 1.2rem;
+
+}
+.about-page img{
+    height: 15rem;
+    width: 14rem;
+    background-color: black;
+}
+.about-intro{
+    width: 50%;
+    background-color: rgb(136, 240, 179);
+    text-align: center;
+}
+.about-info{
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+.project-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.project-page h1{
+    color: rgb(136, 240, 179);
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 6rem;
+    margin-top: 40%;
+}
+.project-page h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.project-page a{
+    color:  white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.project-page a:hover{
+    color:rgb(0, 0, 0); 
+    font-weight: bolder;
+}
+.project-info{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.individual-project{
+    margin: auto;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    opacity: 0.8;
+}
+.individual-project:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    opacity: 1.0;
+}
+#project1{
+    background-image: url("https://www.planetchamonix.com/wp-content/uploads/2018/11/Arteagas-Mexican-Grocery-Store-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project2{
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/23/18/18/umbrella-4715138_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project3{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/5e2e2406f133f400076ab978/960x0.jpg?fit=scale");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-intro{
+    width: 50%;
+    background-color: rgb(49, 47, 47);
+}
+.contact-page{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(136, 240, 179);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-page h2{
+    font-size: 3rem;
+    color: rgb(49, 47, 47);
+    flex-basis: 100%;
+    margin-bottom: 0;
+}
+.contact-page p{
+    font-size: 2rem;
+    color: rgb(49, 47, 47);
+    flex-basis: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contact-page img{
+    margin-top: 0;
+    height: 5rem;
+    width: 5rem;
+    filter: grayscale(100%);
+    margin: 0 1rem;
+}
+.contact-page img:hover{
+    opacity: 0.3;
+}
