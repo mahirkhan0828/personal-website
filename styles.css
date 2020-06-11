@@ -5,6 +5,11 @@ html, body{
     height: 100%;
     background-color: rgb(136, 240, 179);
 }
+@media screen and (min-width: 1900px){
+    html{
+        font-size: 18px;
+    }
+}
 .home-page{
     background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
     background-repeat: no-repeat;
@@ -63,18 +68,18 @@ html, body{
     color: rgb(49, 47, 47);
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .about-page p{
     color: rgb(49, 47, 47);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .about-page ul{
     list-style-type: none;
 }
 .about-page li{
     color: rgb(49, 47, 47);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
 }
 .about-page img{
@@ -112,12 +117,12 @@ html, body{
 }
 .project-page a{
     color:  white;
-    text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
+
 }
 .project-page a:hover{
-    color:rgb(0, 0, 0); 
+    color: rgb(136, 240, 179); 
     font-weight: bolder;
 }
 .project-info{
