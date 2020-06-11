@@ -10,6 +10,11 @@ html, body{
         font-size: 18px;
     }
 }
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 14px;
+    }
+}
 .home-page{
     background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
     background-repeat: no-repeat;
@@ -68,7 +73,7 @@ html, body{
     color: rgb(49, 47, 47);
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .about-page p{
     color: rgb(49, 47, 47);
@@ -96,6 +101,7 @@ html, body{
     width: 50%;
     background-color: white;
     text-align: center;
+    overflow: scroll;
 }
 .project-page{
     height: 100vh;
