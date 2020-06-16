@@ -135,14 +135,15 @@ html, body{
     display: flex;
     width: 50%;
     background-color: white;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 .individual-project{
     margin: auto;
     text-align: center;
     height: 30%;
-    width: 50%;
+    width: 35%;
     opacity: 0.8;
 }
 .individual-project:hover{
@@ -163,6 +164,11 @@ html, body{
 }
 #project3{
     background-image: url("https://specials-images.forbesimg.com/imageserve/5e2e2406f133f400076ab978/960x0.jpg?fit=scale");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project4{
+    background-image: url("https://img.business.com/rc/816x500/aHR0cHM6Ly93d3cuYnVzaW5lc3MuY29tL2ltYWdlcy9jb250ZW50LzVjYS8zY2JhMTVhMjE1ZThhNDU4YjRkYjIvMC04MDAt");
     background-repeat: no-repeat;
     background-size: cover;
 }
