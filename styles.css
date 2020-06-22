@@ -158,20 +158,26 @@ html, body{
     background-size: cover;
 }
 #project2{
-    background-image: url("https://cdn.pixabay.com/photo/2019/12/23/18/18/umbrella-4715138_960_720.jpg");
+    background-image: url("https://st2.depositphotos.com/1518767/6951/v/600/depositphotos_69511347-stock-video-brain-spinning-on-black-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project3{
-    background-image: url("https://specials-images.forbesimg.com/imageserve/5e2e2406f133f400076ab978/960x0.jpg?fit=scale");
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/23/18/18/umbrella-4715138_960_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #project4{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/5e2e2406f133f400076ab978/960x0.jpg?fit=scale");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project5{
     background-image: url("https://img.business.com/rc/816x500/aHR0cHM6Ly93d3cuYnVzaW5lc3MuY29tL2ltYWdlcy9jb250ZW50LzVjYS8zY2JhMTVhMjE1ZThhNDU4YjRkYjIvMC04MDAt");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .project-intro{
     width: 50%;
     background-color: rgb(49, 47, 47);
